@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+
+  <!-- Rating state start -->
+  <div class="card">
+
+    <div class="assessment ">
+      
+      <div class="assessment__description">
+
+        <div class="assessment__description__star"></div>  
+
+        <h1 class="assessment__description__title" >How did we do?</h1>
+        
+        <p class="assessment__description__p">
+          Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      </div>
+
+      <div class="score">
+
+        <ul class="score__mark-container" >
+          <label class="score__mark option " id="1" >1</label>
+          <label class="score__mark option " id="2" >2</label>
+          <label class="score__mark option " id="3" >3</label>
+          <label class="score__mark option " id="4" >4</label>
+          <label class="score__mark option " id="5" >5</label>
+        </ul>
+        <input type="hidden" id="valueSelected" value="">
+        <button class="score__btn" id="submit" >Submit</button>
+
+      </div>
+    
+      <!-- Rating state end -->
+    
+      <!-- Thank you state start -->
+    
+      <!-- You selected <!-- Add rating here --< out of 5 -->
+
+    </div>
+
+    <div class="gratitude d-none">
+
+      <div class="gratitude__img">
+        <img src="./images/illustration-thank-you.svg" alt="img thanks">
+        <p id="msgSelected" class="gratitude__img__selected" >You selected out of 5</p>
+      </div>
+
+      <div class="gratitude__message">
+
+        <h2 class="gratitude__message__title" >Thank you!</h2>
+        
+        <p class="gratitude__message__p">
+          We appreciate you taking the time to give a rating. If you ever need more support, 
+          don’t hesitate to get in touch!
+        </p>
+        <!-- Thank you state end -->
+
+      </div>
+
+    </div>
+
+  </div>
+
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/LuisJimenez19" target="_blank" >Luis Angel</a>.
+
+  </footer>
+  
+  <button class="btn d-none" >⬅</button>
+
+
+
+  <script src="./main.js" ></script>
+</body>
+</html>
