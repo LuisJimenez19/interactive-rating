@@ -22,7 +22,7 @@ body {
   max-width: 415px;
   border-radius: 15px;
   padding: 5px;
-  margin: 80px auto; /* Gradient bien facherito */
+  margin: 60px auto; /* Gradient bien facherito */
   background: linear-gradient(180deg, hsl(214deg, 26%, 16%) 20%, hsl(212deg, 26%, 11%) 80%);
   /*-----------------------description---------------  */
   /* ---------------------------valoration section----------------- */
@@ -160,7 +160,7 @@ body {
   width: 100%;
   text-align: center;
   align-self: center;
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 .attribution a {
   text-decoration: none;
@@ -174,8 +174,11 @@ body {
 .btn {
   display: block;
   font-size: 1.5em;
-  text-align: center;
-  padding: 5px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 40px;
   border: none;
   border-radius: 25px;
   background-color: hsl(25deg, 97%, 53%);
