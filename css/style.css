@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-/* Agrego el fondo y la fuente con su color */
+/* Agrego el fonodo y la fuente con su color */
 body {
   background-color: hsl(216deg, 12%, 8%);
   color: hsl(0deg, 0%, 100%);
@@ -160,8 +160,6 @@ body {
   text-align: center;
   align-self: center;
   font-size: 0.9em;
-  position: absolute;
-  bottom: 30px;
 }
 .attribution a {
   text-decoration: none;
@@ -175,7 +173,8 @@ body {
 .btn {
   display: block;
   font-size: 1.5em;
-  padding: 2px 25px;
+  text-align: center;
+  padding: 5px 30px;
   border: none;
   border-radius: 25px;
   background-color: hsl(25deg, 97%, 53%);
