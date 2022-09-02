@@ -22,7 +22,7 @@ body {
   max-width: 415px;
   border-radius: 15px;
   padding: 5px;
-  margin: 200px auto; /* Gradient bien facherito */
+  margin: 80px auto; /* Gradient bien facherito */
   background: linear-gradient(180deg, hsl(214deg, 26%, 16%) 20%, hsl(212deg, 26%, 11%) 80%);
   /*-----------------------description---------------  */
   /* ---------------------------valoration section----------------- */
@@ -125,6 +125,7 @@ body {
 }
 @media (min-width: 800px) {
   .card { /* Le agrego este mediaquier para que crezca toda la tarjeta */
+    margin: 200px auto;
     transform: scale(1.1);
   }
 }
